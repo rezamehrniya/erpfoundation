@@ -1,0 +1,7 @@
+{
+  "eventName": "contacts.party.created",
+  "payload": {
+    "partyId": "11111111-1111-1111-1111-111111111111",
+    "password": "secret123"
+  }
+}

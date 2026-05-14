@@ -1,0 +1,4 @@
+{
+  "contacts": ["contacts:party:read", "contacts:party:update"],
+  "sales_lite": ["sales_lite:quote:read", "sales_lite:quote:create"]
+}

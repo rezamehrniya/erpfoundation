@@ -1,0 +1,38 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+  .:
+    devDependencies:
+      '@types/node':
+        specifier: ^22.15.29
+        version: 22.15.29
+      '@typescript-eslint/eslint-plugin':
+        specifier: ^8.33.1
+        version: 8.33.1
+      '@typescript-eslint/parser':
+        specifier: ^8.33.1
+        version: 8.33.1
+      eslint:
+        specifier: ^9.27.0
+        version: 9.27.0
+      prettier:
+        specifier: ^3.5.3
+        version: 3.5.3
+      tsx:
+        specifier: ^4.19.4
+        version: 4.19.4
+      typescript:
+        specifier: ^5.8.3
+        version: 5.8.3
+      vitest:
+        specifier: ^2.1.9
+        version: 2.1.9
+      zod:
+        specifier: ^3.25.23
+        version: 3.25.23
+
+packages: {}

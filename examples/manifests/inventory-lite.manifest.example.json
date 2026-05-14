@@ -1,0 +1,19 @@
+{
+  "schemaVersion": "1.0",
+  "moduleKey": "inventory-lite",
+  "name": "Inventory Lite",
+  "version": "0.1.0",
+  "layer": "example",
+  "description": "Safe example inventory-lite module manifest.",
+  "dependencies": { "required": [], "optional": [] },
+  "permissions": ["inventory-lite:stock:read"],
+  "entities": [
+    {
+      "name": "StockItem",
+      "tenantScoped": true,
+      "fields": [{ "name": "id", "type": "uuid", "required": true }]
+    }
+  ],
+  "events": ["inventory-lite.stock.updated"],
+  "settings": []
+}

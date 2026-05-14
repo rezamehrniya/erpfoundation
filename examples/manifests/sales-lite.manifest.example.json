@@ -1,0 +1,19 @@
+{
+  "schemaVersion": "1.0",
+  "moduleKey": "sales_lite",
+  "name": "Sales Lite",
+  "version": "0.1.0",
+  "layer": "example",
+  "description": "Safe example sales-lite module manifest.",
+  "dependencies": { "required": ["contacts"], "optional": [] },
+  "permissions": ["sales_lite:quote:read"],
+  "entities": [
+    {
+      "name": "Quote",
+      "tenantScoped": true,
+      "fields": [{ "name": "id", "type": "uuid", "required": true }]
+    }
+  ],
+  "events": ["sales_lite.quote.created"],
+  "settings": []
+}

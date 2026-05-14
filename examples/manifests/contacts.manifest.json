@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "1.0",
+  "moduleKey": "contacts",
+  "name": "Contacts",
+  "version": "0.1.0",
+  "layer": "business-foundation",
+  "description": "Example contact/party foundation module.",
+  "dependencies": {
+    "required": [],
+    "optional": []
+  },
+  "permissions": [
+    "contacts:party:read",
+    "contacts:party:create",
+    "contacts:party:update"
+  ],
+  "entities": [
+    {
+      "name": "Party",
+      "tenantScoped": true,
+      "fields": [
+        { "name": "id", "type": "uuid", "required": true },
+        { "name": "tenantId", "type": "uuid", "required": true },
+        { "name": "displayName", "type": "string", "required": true }
+      ]
+    }
+  ],
+  "events": ["contacts.party.created"],
+  "settings": []
+}
