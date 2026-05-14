@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import contactsManifest from '../examples/manifests/contacts.manifest.json' assert { type: 'json' };
+import contactsManifest from '../examples/manifests/contacts.manifest.json' with { type: 'json' };
 import { validateManifest } from '../src/manifest/validate-manifest.js';
 
 describe('manifest validation', () => {
